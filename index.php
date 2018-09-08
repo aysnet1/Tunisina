@@ -73,7 +73,12 @@
 		<span class="s1-txt2 txt-center">
 		Tunisina.tn & Tunisina.com| Made With <i style='color:#ff0707' class="fa fa-heart "></i> By <a class='badge badge-success' href='http://fb.com/ayss.net'>Aysser Jbili</a> © 2018
 		</span>
-
+		
+<?php
+echo sqlite_libversion();
+echo "<br>";
+echo phpversion();
+?>
 	</div>
 
 
